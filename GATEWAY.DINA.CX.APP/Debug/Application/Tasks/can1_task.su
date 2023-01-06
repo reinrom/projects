@@ -1,0 +1,2 @@
+../Application/Tasks/can1_task.c:83:6:HAL_FDCAN_RxFifo0Callback	16	static
+../Application/Tasks/can1_task.c:158:6:can1Task	24	static
