@@ -1,7 +1,7 @@
 name: mumi
 on: [push]
 jobs:
-  check-bats-version:
+  check-bats-version_und_ls:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
