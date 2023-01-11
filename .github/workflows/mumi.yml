@@ -16,5 +16,5 @@ jobs:
       - run: echo "Hello World"
       - run: echo $PATH
       - name: Display the path
-        run: cc /Code/test.c -o ./test
+        run: cc Code/test.c -o ./test
         shell: sh
