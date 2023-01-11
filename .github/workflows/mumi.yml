@@ -13,7 +13,7 @@ jobs:
       - run: ls
       - run: cd Code
       - run: ls
-      - run: echo "Hello World"
+      - run: echo "Hello World" > dis.txt
       - run: echo $PATH
       - name: Display the path
         run: cc Code/test.c -o ./test
