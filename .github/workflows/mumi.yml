@@ -11,3 +11,5 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: ls
+      - run: cd GATEWAY.DINA.CX.APP
+      - run: ls
