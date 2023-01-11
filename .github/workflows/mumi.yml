@@ -11,6 +11,6 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: ls
-      - run: cd \GATEWAY.DINA.CX.APP
+      - run: cd Code
       - run: ls
       - run: echo "Hello World"
