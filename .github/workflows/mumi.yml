@@ -13,5 +13,6 @@ jobs:
       - run: ls
       - uses: xanderhendriks/action-build-stm32cubeide@v5.0
         with:
-          project-path: 'application/targets/STM32'
+          project-path: 'GATEWAY.DINA.CX.APP/'
           project-target: 'hexanode'
+      - run: ls
