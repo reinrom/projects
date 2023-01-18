@@ -14,5 +14,5 @@ jobs:
       - uses: xanderhendriks/action-build-stm32cubeide@v5.0
         with:
           project-path: 'GATEWAY.DINA.CX.APP/'
-          project-target: 'GATEWAY.DINA.CX.APP/Debug/gateway.dina.cx.app'
+          project-target: 'GATEWAY.DINA.CX/.project'
       - run: ls
