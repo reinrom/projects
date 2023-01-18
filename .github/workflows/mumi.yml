@@ -11,10 +11,7 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: ls
-      - run: cd Code
-      - run: ls
-      - run: echo "Hello World" > dis.txt
-      - run: echo $PATH
-      - name: Display the path
-        run: cc Code/test.c -o ./test
-        shell: sh
+      - uses: xanderhendriks/action-build-stm32cubeide@v5.0
+        with:
+          project-path: 'application/targets/STM32'
+          project-target: 'hexanode'
