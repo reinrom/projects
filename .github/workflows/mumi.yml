@@ -13,6 +13,6 @@ jobs:
       - run: ls
       - uses: xanderhendriks/action-build-stm32cubeide@v5.0
         with:
-          project-path: 'GATEWAY.DINA.CX.APP/'
+          project-path: 'GATEWAY.DINA.CX.APP/Debug/'
           project-target: 'Debug/gateway.dina.cx.app'
       - run: ls
