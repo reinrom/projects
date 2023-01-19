@@ -32482,61 +32482,61 @@ LOAD c:/st/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x00000000000130a4      0x5f2 ./Middlewares/Third_Party/LwIP/system/OS/sys_arch.o
  .debug_macro   0x0000000000013696       0x11 ./Middlewares/Third_Party/LwIP/system/OS/sys_arch.o
 
-.debug_line     0x0000000000000000    0x3d915
+.debug_line     0x0000000000000000    0x3d924
  .debug_line    0x0000000000000000      0xbb0 ./Application/Tasks/can1_task.o
  .debug_line    0x0000000000000bb0      0xb4e ./Application/Tasks/can2_task.o
  .debug_line    0x00000000000016fe      0xf73 ./Application/Tasks/dina_cx_task.o
- .debug_line    0x0000000000002671     0x12a1 ./Core/Src/main.o
- .debug_line    0x0000000000003912      0x939 ./Core/Src/stm32h7xx_hal_msp.o
- .debug_line    0x000000000000424b      0x8e0 ./Core/Src/stm32h7xx_hal_timebase_tim.o
- .debug_line    0x0000000000004b2b      0x951 ./Core/Src/stm32h7xx_it.o
- .debug_line    0x000000000000547c      0xd60 ./Core/Src/syscalls.o
- .debug_line    0x00000000000061dc      0xb58 ./Core/Src/sysmem.o
- .debug_line    0x0000000000006d34      0xa28 ./Core/Src/system_stm32h7xx.o
- .debug_line    0x000000000000775c       0x88 ./Core/Startup/startup_stm32h753vitx.o
- .debug_line    0x00000000000077e4      0x80d ./Drivers/BSP/Components/lan8742/lan8742.o
- .debug_line    0x0000000000007ff1      0xe1a ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
- .debug_line    0x0000000000008e0b      0xe20 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o
- .debug_line    0x0000000000009c2b     0x1b60 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_eth.o
- .debug_line    0x000000000000b78b     0x277b ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.o
- .debug_line    0x000000000000df06      0xcdd ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
- .debug_line    0x000000000000ebe3      0xf34 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o
- .debug_line    0x000000000000fb17     0x13ea ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o
- .debug_line    0x0000000000010f01     0x1cb8 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
- .debug_line    0x0000000000012bb9     0x3f0b ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o
- .debug_line    0x0000000000016ac4     0x1dc6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o
- .debug_line    0x000000000001888a      0xeea ./LWIP/App/lwip.o
- .debug_line    0x0000000000019774     0x13ce ./LWIP/Target/ethernetif.o
- .debug_line    0x000000000001ab42     0x2446 ./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o
- .debug_line    0x000000000001cf88      0x712 ./Middlewares/Third_Party/FreeRTOS/Source/list.o
- .debug_line    0x000000000001d69a     0x16dc ./Middlewares/Third_Party/FreeRTOS/Source/queue.o
- .debug_line    0x000000000001ed76     0x1dba ./Middlewares/Third_Party/FreeRTOS/Source/tasks.o
- .debug_line    0x0000000000020b30      0xd72 ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
- .debug_line    0x00000000000218a2      0x8d9 ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
- .debug_line    0x000000000002217b      0x93c ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_line    0x0000000000022ab7     0x115d ./Middlewares/Third_Party/LwIP/src/api/tcpip.o
- .debug_line    0x0000000000023c14      0xc98 ./Middlewares/Third_Party/LwIP/src/apps/http/fs.o
- .debug_line    0x00000000000248ac     0x13c4 ./Middlewares/Third_Party/LwIP/src/apps/http/httpd.o
- .debug_line    0x0000000000025c70      0xd14 ./Middlewares/Third_Party/LwIP/src/core/def.o
- .debug_line    0x0000000000026984      0xe6c ./Middlewares/Third_Party/LwIP/src/core/inet_chksum.o
- .debug_line    0x00000000000277f0      0xf76 ./Middlewares/Third_Party/LwIP/src/core/init.o
- .debug_line    0x0000000000028766      0xc5a ./Middlewares/Third_Party/LwIP/src/core/ip.o
- .debug_line    0x00000000000293c0     0x11f2 ./Middlewares/Third_Party/LwIP/src/core/mem.o
- .debug_line    0x000000000002a5b2     0x116e ./Middlewares/Third_Party/LwIP/src/core/memp.o
- .debug_line    0x000000000002b720     0x14b8 ./Middlewares/Third_Party/LwIP/src/core/netif.o
- .debug_line    0x000000000002cbd8     0x1964 ./Middlewares/Third_Party/LwIP/src/core/pbuf.o
- .debug_line    0x000000000002e53c     0x1f39 ./Middlewares/Third_Party/LwIP/src/core/tcp.o
- .debug_line    0x0000000000030475     0x2034 ./Middlewares/Third_Party/LwIP/src/core/tcp_in.o
- .debug_line    0x00000000000324a9     0x1be1 ./Middlewares/Third_Party/LwIP/src/core/tcp_out.o
- .debug_line    0x000000000003408a     0x11b6 ./Middlewares/Third_Party/LwIP/src/core/timeouts.o
- .debug_line    0x0000000000035240     0x137b ./Middlewares/Third_Party/LwIP/src/core/udp.o
- .debug_line    0x00000000000365bb     0x13d4 ./Middlewares/Third_Party/LwIP/src/core/ipv4/etharp.o
- .debug_line    0x000000000003798f      0xe5a ./Middlewares/Third_Party/LwIP/src/core/ipv4/icmp.o
- .debug_line    0x00000000000387e9     0x1053 ./Middlewares/Third_Party/LwIP/src/core/ipv4/ip4.o
- .debug_line    0x000000000003983c      0xf2a ./Middlewares/Third_Party/LwIP/src/core/ipv4/ip4_addr.o
- .debug_line    0x000000000003a766     0x134a ./Middlewares/Third_Party/LwIP/src/core/ipv4/ip4_frag.o
- .debug_line    0x000000000003bab0      0xe43 ./Middlewares/Third_Party/LwIP/src/netif/ethernet.o
- .debug_line    0x000000000003c8f3     0x1022 ./Middlewares/Third_Party/LwIP/system/OS/sys_arch.o
+ .debug_line    0x0000000000002671     0x12b0 ./Core/Src/main.o
+ .debug_line    0x0000000000003921      0x939 ./Core/Src/stm32h7xx_hal_msp.o
+ .debug_line    0x000000000000425a      0x8e0 ./Core/Src/stm32h7xx_hal_timebase_tim.o
+ .debug_line    0x0000000000004b3a      0x951 ./Core/Src/stm32h7xx_it.o
+ .debug_line    0x000000000000548b      0xd60 ./Core/Src/syscalls.o
+ .debug_line    0x00000000000061eb      0xb58 ./Core/Src/sysmem.o
+ .debug_line    0x0000000000006d43      0xa28 ./Core/Src/system_stm32h7xx.o
+ .debug_line    0x000000000000776b       0x88 ./Core/Startup/startup_stm32h753vitx.o
+ .debug_line    0x00000000000077f3      0x80d ./Drivers/BSP/Components/lan8742/lan8742.o
+ .debug_line    0x0000000000008000      0xe1a ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
+ .debug_line    0x0000000000008e1a      0xe20 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o
+ .debug_line    0x0000000000009c3a     0x1b60 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_eth.o
+ .debug_line    0x000000000000b79a     0x277b ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.o
+ .debug_line    0x000000000000df15      0xcdd ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
+ .debug_line    0x000000000000ebf2      0xf34 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o
+ .debug_line    0x000000000000fb26     0x13ea ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o
+ .debug_line    0x0000000000010f10     0x1cb8 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
+ .debug_line    0x0000000000012bc8     0x3f0b ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o
+ .debug_line    0x0000000000016ad3     0x1dc6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o
+ .debug_line    0x0000000000018899      0xeea ./LWIP/App/lwip.o
+ .debug_line    0x0000000000019783     0x13ce ./LWIP/Target/ethernetif.o
+ .debug_line    0x000000000001ab51     0x2446 ./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o
+ .debug_line    0x000000000001cf97      0x712 ./Middlewares/Third_Party/FreeRTOS/Source/list.o
+ .debug_line    0x000000000001d6a9     0x16dc ./Middlewares/Third_Party/FreeRTOS/Source/queue.o
+ .debug_line    0x000000000001ed85     0x1dba ./Middlewares/Third_Party/FreeRTOS/Source/tasks.o
+ .debug_line    0x0000000000020b3f      0xd72 ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
+ .debug_line    0x00000000000218b1      0x8d9 ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
+ .debug_line    0x000000000002218a      0x93c ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_line    0x0000000000022ac6     0x115d ./Middlewares/Third_Party/LwIP/src/api/tcpip.o
+ .debug_line    0x0000000000023c23      0xc98 ./Middlewares/Third_Party/LwIP/src/apps/http/fs.o
+ .debug_line    0x00000000000248bb     0x13c4 ./Middlewares/Third_Party/LwIP/src/apps/http/httpd.o
+ .debug_line    0x0000000000025c7f      0xd14 ./Middlewares/Third_Party/LwIP/src/core/def.o
+ .debug_line    0x0000000000026993      0xe6c ./Middlewares/Third_Party/LwIP/src/core/inet_chksum.o
+ .debug_line    0x00000000000277ff      0xf76 ./Middlewares/Third_Party/LwIP/src/core/init.o
+ .debug_line    0x0000000000028775      0xc5a ./Middlewares/Third_Party/LwIP/src/core/ip.o
+ .debug_line    0x00000000000293cf     0x11f2 ./Middlewares/Third_Party/LwIP/src/core/mem.o
+ .debug_line    0x000000000002a5c1     0x116e ./Middlewares/Third_Party/LwIP/src/core/memp.o
+ .debug_line    0x000000000002b72f     0x14b8 ./Middlewares/Third_Party/LwIP/src/core/netif.o
+ .debug_line    0x000000000002cbe7     0x1964 ./Middlewares/Third_Party/LwIP/src/core/pbuf.o
+ .debug_line    0x000000000002e54b     0x1f39 ./Middlewares/Third_Party/LwIP/src/core/tcp.o
+ .debug_line    0x0000000000030484     0x2034 ./Middlewares/Third_Party/LwIP/src/core/tcp_in.o
+ .debug_line    0x00000000000324b8     0x1be1 ./Middlewares/Third_Party/LwIP/src/core/tcp_out.o
+ .debug_line    0x0000000000034099     0x11b6 ./Middlewares/Third_Party/LwIP/src/core/timeouts.o
+ .debug_line    0x000000000003524f     0x137b ./Middlewares/Third_Party/LwIP/src/core/udp.o
+ .debug_line    0x00000000000365ca     0x13d4 ./Middlewares/Third_Party/LwIP/src/core/ipv4/etharp.o
+ .debug_line    0x000000000003799e      0xe5a ./Middlewares/Third_Party/LwIP/src/core/ipv4/icmp.o
+ .debug_line    0x00000000000387f8     0x1053 ./Middlewares/Third_Party/LwIP/src/core/ipv4/ip4.o
+ .debug_line    0x000000000003984b      0xf2a ./Middlewares/Third_Party/LwIP/src/core/ipv4/ip4_addr.o
+ .debug_line    0x000000000003a775     0x134a ./Middlewares/Third_Party/LwIP/src/core/ipv4/ip4_frag.o
+ .debug_line    0x000000000003babf      0xe43 ./Middlewares/Third_Party/LwIP/src/netif/ethernet.o
+ .debug_line    0x000000000003c902     0x1022 ./Middlewares/Third_Party/LwIP/system/OS/sys_arch.o
 
 .debug_str      0x0000000000000000   0x18f37b
  .debug_str     0x0000000000000000   0x16aea1 ./Application/Tasks/can1_task.o

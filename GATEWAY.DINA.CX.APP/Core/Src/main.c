@@ -27,7 +27,7 @@
 #include "lwip/apps/httpd.h"
 #include <string.h>
 #include "../../Application/Common/typedefs.h"
-#include "tasks_defs.h"
+#include "../../Application/Tasks/tasks_defs.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
