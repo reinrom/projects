@@ -29,7 +29,7 @@
  *********************************************************************/
 #include "cmsis_os.h"
 #include "tasks_defs.h"
-#include "typedefs.h"
+#include "../Common/typedefs.h"
 #include "stm32h7xx.h"
 #include <stdio.h>
 #include <string.h>

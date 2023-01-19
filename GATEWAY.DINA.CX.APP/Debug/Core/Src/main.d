@@ -86,7 +86,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/apps/httpd.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/apps/httpd_opts.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/iana.h \
- ../Application/Common/typedefs.h ../Application/Tasks/tasks_defs.h
+ ../Core/Src/../../Application/Common/typedefs.h \
+ ../Application/Tasks/tasks_defs.h
 ../Core/Inc/main.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
@@ -175,5 +176,5 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Middlewares/Third_Party/LwIP/src/include/lwip/apps/httpd.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/apps/httpd_opts.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/iana.h:
-../Application/Common/typedefs.h:
+../Core/Src/../../Application/Common/typedefs.h:
 ../Application/Tasks/tasks_defs.h:

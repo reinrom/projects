@@ -26,7 +26,7 @@
 #include "lwip/udp.h"
 #include "lwip/apps/httpd.h"
 #include <string.h>
-#include "typedefs.h"
+#include "../../Application/Common/typedefs.h"
 #include "tasks_defs.h"
 /* USER CODE END Includes */
 

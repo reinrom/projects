@@ -83,8 +83,8 @@ all: main-build
 main-build: gateway.dina.cx.app.elf secondary-outputs
 
 # Tool invocations
-gateway.dina.cx.app.elf gateway.dina.cx.app.map: $(OBJS) $(USER_OBJS) C:\DINA\GIT\GATEWAY.DINA.CX.APP\STM32H753VITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "gateway.dina.cx.app.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\DINA\GIT\GATEWAY.DINA.CX.APP\STM32H753VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="gateway.dina.cx.app.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+gateway.dina.cx.app.elf gateway.dina.cx.app.map: $(OBJS) $(USER_OBJS) C:\USER\Projects\projects\GATEWAY.DINA.CX.APP\STM32H753VITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "gateway.dina.cx.app.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\USER\Projects\projects\GATEWAY.DINA.CX.APP\STM32H753VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="gateway.dina.cx.app.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
