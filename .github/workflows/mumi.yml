@@ -16,5 +16,3 @@ jobs:
           project-path: 'GATEWAY.DINA.CX.APP/'
           project-target: 'gateway.dina.cx.app'
       - run: ls
-      - run: ls
-
